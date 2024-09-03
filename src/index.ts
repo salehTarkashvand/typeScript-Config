@@ -125,3 +125,31 @@
 
 
 // -----------------type assertion ----------------------
+
+// const element = document.getElementById("phone") as HTMLInputElement 
+// const element = <HTMLInputElement> document.getElementById("phone") 
+
+// element.value
+
+
+//-------------------unknown-----------------------------
+
+// function unkonwn (document : unknown){
+
+//    // we can writhing "naroing" for undrstand type 
+
+//    if(typeof document === "string"){
+//       document.concat()
+//    }
+// }
+
+// --------------------never-------------------------------
+
+// function loop () :never{
+//    while(true){
+
+//    }
+// }
+
+// loop()
+// console.log("this log 'never' use with 'never' anotation ")
